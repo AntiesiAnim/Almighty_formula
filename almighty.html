@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almighty Formula</title>
+</head>
+<body>
+    <script>
+        function almighty(a, b, c) {
+            var a = prompt('Enter the value of a:');
+            var b = prompt('Enter the value of b:');
+            var c = prompt('Enter the value of c:');
+
+            let x = b*b;
+            // alert('The square of b is '+x);
+            let y = 4*a*c;
+            // alert('4ac is: '+y);
+            let z = x-y;
+            // alert('b square minus 4ac is: '+z);
+            // alert('squareroot of 5 is: '+Math.sqrt(5))
+            let k = z^0.5;
+            alert('squareroot of b square minus 4ac is: '+k);
+            // alert('The square root of z is: ',+k);
+            let B = 2*a;
+            let A = -b+k;
+            let M = -b-k;
+            // let T = A||M;
+            let e = A/B;
+            let f = M/B;
+            // let AF = T/B;
+            // alert('Roots: '+AF)
+            alert('Your roots are: '+e + 'and ' + f)
+        }almighty()
+
+      
+    </script>
+</body>
+</html>
